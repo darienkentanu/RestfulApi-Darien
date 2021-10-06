@@ -1,0 +1,485 @@
+{
+	"info": {
+		"_postman_id": "e65eca95-c850-4fb4-8cb3-e889ca011791",
+		"name": "Tugas-1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "a.i",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=tesla&from=2021-08-30&sortBy=publishedAt&apiKey=6fc1e7e213c84a4e8e2a0252bb8d968a",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "tesla"
+						},
+						{
+							"key": "from",
+							"value": "2021-08-30"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "6fc1e7e213c84a4e8e2a0252bb8d968a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a.ii-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json",
+					"protocol": "http",
+					"host": [
+						"www",
+						"7timer",
+						"info"
+					],
+					"path": [
+						"bin",
+						"api.pl"
+					],
+					"query": [
+						{
+							"key": "lon",
+							"value": "113.17"
+						},
+						{
+							"key": "lat",
+							"value": "23.09"
+						},
+						{
+							"key": "product",
+							"value": "astro"
+						},
+						{
+							"key": "output",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a.ii-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.agify.io?name=bella",
+					"protocol": "https",
+					"host": [
+						"api",
+						"agify",
+						"io"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "bella"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a.ii-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://archive.org/advancedsearch.php?q=subject:google+sheets&output=json",
+					"protocol": "https",
+					"host": [
+						"archive",
+						"org"
+					],
+					"path": [
+						"advancedsearch.php"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "subject:google+sheets"
+						},
+						{
+							"key": "output",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a.ii-4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.boredapi.com/api/activity",
+					"protocol": "https",
+					"host": [
+						"www",
+						"boredapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a.ii-5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
+					"protocol": "https",
+					"host": [
+						"www",
+						"thecocktaildb",
+						"com"
+					],
+					"path": [
+						"api",
+						"json",
+						"v1",
+						"1",
+						"search.php"
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "margarita"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b.i",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets/1/?format=wookiee",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets",
+						"1",
+						""
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "wookiee"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b.ii-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coinbase.com/v2/currencies",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coinbase",
+						"com"
+					],
+					"path": [
+						"v2",
+						"currencies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b.ii-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coindesk.com/v1/bpi/currentprice.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coindesk",
+						"com"
+					],
+					"path": [
+						"v1",
+						"bpi",
+						"currentprice.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b.ii-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coingecko.com/api/v3/exchange_rates",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coingecko",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"exchange_rates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b.ii-4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coinpaprika.com/v1/coins/btc-bitcoin",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coinpaprika",
+						"com"
+					],
+					"path": [
+						"v1",
+						"coins",
+						"btc-bitcoin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b.ii-5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.cryptingup.com/api/markets",
+					"protocol": "https",
+					"host": [
+						"www",
+						"cryptingup",
+						"com"
+					],
+					"path": [
+						"api",
+						"markets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c.i",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app.swaggerhub.com/apis-docs/sepulsa/RentABook-API/1.0.0",
+					"protocol": "https",
+					"host": [
+						"app",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"apis-docs",
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c.ii",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c.iii-get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c.iii-post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"client_id\": 1234,\n  \"client_key\": \"CLIENT01\",\n  \"client_secret\": \"SECRET01\",\n  \"status\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c.iii-put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"client_id\": 1234,\n  \"client_key\": \"CLIENT01\",\n  \"client_secret\": \"SECRET01\",\n  \"status\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/1234",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"1234"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c.iii-delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/1234",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"1234"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
